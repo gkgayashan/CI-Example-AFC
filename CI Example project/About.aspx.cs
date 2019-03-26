@@ -11,6 +11,11 @@ namespace CI_Example_project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ErrorCommitTestFuntion(1);
+        }
+
+        public void ErrorCommitTestFuntion(int one, int two)
+        {
 
         }
     }
